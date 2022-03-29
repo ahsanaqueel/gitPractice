@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+    header > div{
+        background-color: black;
+        text-align: center;
+        color: white;
+        padding: 18px;
+    }
+    header > div button{
+        background-color: #eb5757;
+        color: white;
+        padding: 6px 14px;
+        border-radius: 15px;
+        border: none;
+        margin-right: 10px;
+    }
+    nav{
+        background-color: #eb5757;
+    }
+    nav ol{            
+        display: flex;
+        list-style-type: none;
+
+        }
+    nav li{
+        flex-grow: 1;
+        line-height: 55px;
+        color: white;
+        }
+    nav li:first-child{
+        flex-grow:8;
+        }
+    nav li:first-child img{
+        vertical-align: middle;
+        }
+        .hero{
+            position: relative;
+        }
+        .hero-img{
+            width: 100%;
+            height: 370px;
+        }
+        .hero-div-1-1{
+            position: absolute;
+            top: 8%;
+            left: 14%;
+            width: 230px;
+            
+        }
+        .hero-div-1-1 h1{
+            font-size: 1.8em;
+            color: white;
+            font-weight: bolder;
+            font-family: sans-serif;
+            letter-spacing: 2px;
+        }
+        .hero-div-1-1 p{
+            color: white;
+            line-height: 20px;
+
+        }
+        .hero-div-1-1 button{
+            background: transparent;
+            color: white;
+            border: 1px solid white;
+            padding: 6px 15px;
+            border-radius: 4px;
+            margin-top: 13px;
+        }
+        .hero-div-2{
+            display: flex;
+        }
+        .hero-div-2-1{
+            flex-grow: 4;
+            margin: 20px 86px;
+            width: 0;
+            line-height: 30px;
+        }
+        .hero-div-2-1 p{
+            text-transform: uppercase;
+        }
+        .hero-div-2-1 h1{
+            font-family: system-ui;
+            font-weight: bolder;
+        }
+        .hero-div-2-2{
+            flex-grow: 4;
+            width: 0px;
+            margin: 25px 60px;
+            /* text-align: center; */
+        }
+        .hero-div-3{
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+
+        }
+        .box-div-3{
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            color:white;
+            position: relative;
+        }
+        .box-div-3 h2{
+
+            text-align: left;
+            font-size: 2em;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+        .box-div-3 h1{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            height: fit-content;
+            text-align: center;
+        }
+        .circle{
+            border: 4px solid white;
+            position: absolute;
+            bottom: -13px;
+            right: -14px;
+            width: 40px;
+            height: 40px;
+            border-radius: 32px;
+        }
+        .triangle{
+            position: absolute;
+            bottom: -10px;
+            width: 0;
+            height: 0;
+            border-top: 0;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+            border-bottom: 59px solid white;
+            right: -4px;
+        }
+        .triangle1{
+            position: absolute;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            border-top: 0;
+            border-left: 28px solid transparent;
+            border-right: 29px solid transparent;
+            border-bottom: 40px solid black;
+            right: 7px;
+        }
+        .square{
+            border: 4px solid white;
+            position: absolute;
+            bottom: -13px;
+            right: -14px;
+            width: 40px;
+            height: 40px;
+        }
+        .para-div-3{
+            color: black;
+            position: absolute;
+            bottom: -70px;
+        }
+        .hero-div-4{
+            position: relative;
+            top: 110px;
+        }
+        .hero-div-4-1{
+            position: absolute;
+            top: 21%;
+            right: 15%;
+            width: 387px;
+            
+        }
+        .hero-div-4-1 h1{
+            font-size: 1.8em;
+            color: white;
+            font-weight: bolder;
+            font-family: sans-serif;
+            letter-spacing: 2px;
+        }
+        .hero-div-4-1 p{
+            color: white;
+            line-height: 20px;
+
+        }
+        .hero-div-4-1 button{
+            background: transparent;
+            color: white;
+            border: 1px solid white;
+            padding: 6px 15px;
+            border-radius: 4px;
+            margin-top: 13px;
+        }
+</style>
+<body>
+    <header>
+        <div>
+            <button>Announcment</button><span>We are Responding to COVID-19</span>
+        </div>
+        <nav>
+            <ol>
+                <li><img src="logo.jpeg" alt=""></li>
+                <li>About</li>
+                <li>Contact Us</li>
+                <li>Dashboard</li>
+                <li>Products</li>
+                <li>Services</li>
+            </ol>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-div-1">
+            <img class="hero-img" src="hero.jpeg" alt="">
+            <div class="hero-div-1-1">
+                <h1>Serving You</h1>
+                <h1>Since 1989</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>More Details</button>
+            </div>
+        </div>
+
+        <div class="hero-div-2">
+            <div class="hero-div-2-1">
+                <p>Ways to Support</p>
+                <h1>Support Acme Outdoor</h1>
+            </div>
+            <div class="hero-div-2-2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium maxime adipisci at minima dolorum, provident quia consequuntur suscipit magnam nisi blanditiis laboriosam ab! Voluptatibus tempore suscipit expedita obcaecati! Dignissimos, distinctio!</p>
+            </div>
+        </div>
+        <div class="hero-div-3">
+            <div class="box-div-3">
+                <h2>01</h2>
+                <h1>SHOP PRODUCTS</h1>
+                <div class="circle"></div>
+                <div class="para-div-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            </div>
+            
+            <div class="box-div-3">
+                <h2>02</h2>
+                <h1>DONATE</h1>
+                <div class="triangle"></div>
+                <div class="triangle1"></div>
+                <div class="para-div-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            </div>
+           
+            <div class="box-div-3">
+                <h2>03</h2>
+                <h1>BUY GIFT CARDS</h1>
+                <div class="square"></div>
+                <div class="para-div-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            </div>
+        </div>
+        <div class="hero-div-4">
+            <img class="hero-img" src="WhatsApp Image 2022-03-22 at 5.58.49 PM.jpeg" alt="">
+            <div class="hero-div-4-1">
+                <h1>How we are keeping you</h1>
+                <h1>Safe during COVID-19</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>More Details</button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </section>
+</body>
+</html>
